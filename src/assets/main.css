@@ -1,2 +1,39 @@
 @import './base.css';
 
+.header {
+  color: var(--base-black);
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  height: 100vh;
+}
+
+.single-column {
+  border: 1px solid red;
+  height: 100%;
+}
+
+.post__wrapper {
+  margin-bottom: 4rem;
+}
+
+.post-title {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.post-author {
+  font-size: 18px;
+  font-weight: 700;
+  margin-left: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.post-content {
+  margin-top: 1rem;
+  font-size: 18px;
+}
