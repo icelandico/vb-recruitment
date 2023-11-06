@@ -56,6 +56,7 @@
   box-sizing: border-box;
   margin: 0;
   font-weight: normal;
+  font-family: 'Lato', sans-serif;
 }
 
 body {
@@ -83,4 +84,5 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding: 1rem;
 }
